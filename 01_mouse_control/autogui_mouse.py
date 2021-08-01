@@ -16,7 +16,7 @@ def draw_letter(letter:str):
     else:
         return False
 
-pyautogui.FAILSAFE = False
+pyautogui.FAILSAFE = True
 
 while True:
     ip="hello world!"
